@@ -1,0 +1,19 @@
+; GralFunctions.def : Declares the module parameters for the DLL.
+
+LIBRARY      "GralFunctions"
+DESCRIPTION  'GralFunctions Windows Dynamic Link Library'
+
+EXPORTS
+    ; Explicit exports can go here
+	DllCanUnloadNow PRIVATE
+	DllGetClassObject PRIVATE
+	DllRegisterServer PRIVATE
+	fnGralFunctions	
+	Compound_Number
+	Compound_Number16
+	Compound_Number24
+	Compound_Number32
+	Conv_Digit_2_Hex
+	Conv_Dec_2_Hex
+	Conv_Byte_2_Str
+	Conv_Str_2_IdEvent

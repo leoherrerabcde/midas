@@ -1,0 +1,33 @@
+void template <class T> CPoolMemory::Pool_CreateTable(long lNewSize)
+{
+	CPoolTable::Pool_CreateTable(lNewSize,sizeof(T));
+	mPool_Memory	= CPoolTable::GetPoolTable();
+}
+
+void template <class T> CPoolMemory::Pool_Destroy(void)
+{
+	CPoolTable::Pool_Destroy();
+	
+}
+
+T* template <class T> CPoolMemory::Alloc(long Size)
+{
+	return 	(T*)CPoolTable::Alloc(Size);
+}
+
+void template <class T> CPoolMemory::Free(T* ptn)
+{
+	CPoolTable::Free((void*)ptn);
+}
+
+long template <class T> CPoolMemory::GetDataSize(void)
+{
+	long		nDataSize = CPoolTable::GetDataSize();
+	
+	if (!nDataSize)
+	{
+		nDataSize	= sizeof(T);
+		CPoolTable::Pool_SetDataSize(nDataSize);
+	}
+	return nDataSize;
+}

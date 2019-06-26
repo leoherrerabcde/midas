@@ -1,0 +1,16 @@
+// GralFunctions.odl : type library source for GralFunctions.dll
+
+// This file will be processed by the MIDL compiler to produce the
+// type library (GralFunctions.tlb).
+
+[ uuid(24DC5848-91AF-492A-B245-45016E7046F2), version(1.0) ]
+library GralFunctions
+{
+	importlib("stdole32.tlb");
+	importlib("stdole2.tlb");
+
+
+
+	//{{AFX_APPEND_ODL}}
+	//}}AFX_APPEND_ODL}}
+};

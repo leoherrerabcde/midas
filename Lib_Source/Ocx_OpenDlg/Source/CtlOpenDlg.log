@@ -1,0 +1,44 @@
+Line 182: Class MSComctlLib.ListView of control LstVwFileSelected was not a loaded control class.
+Line 208: Class MSComctlLib.ListView of control LstVwFileList was not a loaded control class.
+Line 235: Class ShComboBox.ShComboBox of control ShComboBoxAbPls was not a loaded control class.
+Line 264: Class FileViewControl.FileView of control FileViewAbrirPls was not a loaded control class.
+Line 189: The property name _ExtentX in LstVwFileSelected is invalid.
+Line 190: The property name _ExtentY in LstVwFileSelected is invalid.
+Line 191: The property name View in LstVwFileSelected is invalid.
+Line 192: The property name MultiSelect in LstVwFileSelected is invalid.
+Line 193: The property name LabelWrap in LstVwFileSelected is invalid.
+Line 194: The property name HideSelection in LstVwFileSelected is invalid.
+Line 195: The property name HideColumnHeaders in LstVwFileSelected is invalid.
+Line 196: The property name FullRowSelect in LstVwFileSelected is invalid.
+Line 197: The property name GridLines in LstVwFileSelected is invalid.
+Line 198: The property name _Version in LstVwFileSelected is invalid.
+Line 203: The property name NumItems in LstVwFileSelected is invalid.
+Line 206: The property name ColumnHeader(1) in LstVwFileSelected is invalid.
+Line 215: The property name _ExtentX in LstVwFileList is invalid.
+Line 216: The property name _ExtentY in LstVwFileList is invalid.
+Line 217: The property name View in LstVwFileList is invalid.
+Line 218: The property name LabelEdit in LstVwFileList is invalid.
+Line 219: The property name MultiSelect in LstVwFileList is invalid.
+Line 220: The property name LabelWrap in LstVwFileList is invalid.
+Line 221: The property name HideSelection in LstVwFileList is invalid.
+Line 222: The property name HideColumnHeaders in LstVwFileList is invalid.
+Line 223: The property name Checkboxes in LstVwFileList is invalid.
+Line 224: The property name GridLines in LstVwFileList is invalid.
+Line 225: The property name _Version in LstVwFileList is invalid.
+Line 230: The property name NumItems in LstVwFileList is invalid.
+Line 233: The property name ColumnHeader(1) in LstVwFileList is invalid.
+Line 241: The property name _Version in ShComboBoxAbPls is invalid.
+Line 242: The property name _ExtentX in ShComboBoxAbPls is invalid.
+Line 243: The property name _ExtentY in ShComboBoxAbPls is invalid.
+Line 244: The property name _StockProps in ShComboBoxAbPls is invalid.
+Line 270: The property name _Version in FileViewAbrirPls is invalid.
+Line 271: The property name _ExtentX in FileViewAbrirPls is invalid.
+Line 272: The property name _ExtentY in FileViewAbrirPls is invalid.
+Line 273: The property name _StockProps in FileViewAbrirPls is invalid.
+Line 274: The property name AllowFileExecute in FileViewAbrirPls is invalid.
+Line 275: The property name AllowItemRenaming in FileViewAbrirPls is invalid.
+Line 276: The property name CurrentFolder in FileViewAbrirPls is invalid.
+Line 277: The property name AllowDragDrop in FileViewAbrirPls is invalid.
+Line 287: The property name AllowColumnHeaderDragdrop in FileViewAbrirPls is invalid.
+Line 288: The property name AllowZipFolders in FileViewAbrirPls is invalid.
+Line 289: The property name HideSelection in FileViewAbrirPls is invalid.

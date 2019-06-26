@@ -1,0 +1,5 @@
+VBGROUP 5.0
+Project=..\Ocx_DirCboImg\PrjOcxDirCboImg.vbp
+Project=ProjectXplorer.vbp
+Project=..\Ocx_OpenDlg\Copia de Source\PrjOpenDlg.vbp
+StartupProject=..\..\guiPulseConvert\GuiPulseConvert.vbp

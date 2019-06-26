@@ -1,0 +1,24 @@
+// ErrorHandler.cpp: implementation of the CErrorHandler class.
+//
+//////////////////////////////////////////////////////////////////////
+
+#include "ErrorHandler.h"
+
+//////////////////////////////////////////////////////////////////////
+// Construction/Destruction
+//////////////////////////////////////////////////////////////////////
+
+CErrorHandler::CErrorHandler()
+{
+
+}
+
+CErrorHandler::~CErrorHandler()
+{
+
+}
+
+void CErrorHandler::AddError(int iCodError,char* FileName, char *FnName, char *Description)
+{
+
+}

@@ -1,0 +1,65 @@
+<html>
+<body>
+<pre>
+<h1>Build Log</h1>
+<h3>
+--------------------Configuration: StructDatos - Win32 Debug--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating temporary file "C:\DOCUME~1\LEOHER~1\CONFIG~1\Temp\RSPE0.tmp" with contents
+[
+kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /nologo /dll /incremental:yes /pdb:"..\..\StructDatos.pdb" /debug /machine:I386 /def:".\StructDatos.def" /out:"..\..\StructDatos.dll" /implib:"..\..\StructDatos.lib" /pdbtype:sept 
+.\Debug\BasicExcel.obj
+.\Debug\BookMark.obj
+.\Debug\cFileName.obj
+.\Debug\cFilesList.obj
+.\Debug\ControlTable.obj
+.\Debug\cProjectManager.obj
+.\Debug\dirent.obj
+.\Debug\ErrorHandler.obj
+.\Debug\ExcelFormat.obj
+.\Debug\filelist.obj
+.\Debug\filelist2.obj
+.\Debug\filelist_op.obj
+.\Debug\gralFuntions.obj
+.\Debug\PoolTable.obj
+.\Debug\pulse_excel_export.obj
+.\Debug\pulse_export_dll.obj
+.\Debug\pulse_export_file.obj
+.\Debug\pulse_export_op.obj
+.\Debug\pulse_import_optimize.obj
+.\Debug\pulse_import_optimize2.obj
+.\Debug\pulse_import_Verify_Errors.obj
+.\Debug\pulseexport.obj
+.\Debug\pulseexport_filtered.obj
+.\Debug\pulseformat.obj
+.\Debug\pulseimport.obj
+.\Debug\pulseimport2.obj
+.\Debug\pulseimport3.obj
+.\Debug\pulseimport_Destroy.obj
+.\Debug\Pulseproject.obj
+.\Debug\PulseProject2.obj
+.\Debug\PulseProject_byInterval.obj
+.\Debug\Pulseproject_ErrorList.obj
+.\Debug\PulseProject_Get.obj
+.\Debug\PulseProjectDestroy.obj
+.\Debug\PulseProjectNew.obj
+.\Debug\PulseProjectSaveWrkSp.obj
+.\Debug\PulseProjectSpreadSheet.obj
+.\Debug\ReadFile.obj
+.\Debug\StructDatos.obj
+.\Debug\TpoReal.obj
+.\Debug\StructDatos.res
+]
+Creating command line "link.exe @C:\DOCUME~1\LEOHER~1\CONFIG~1\Temp\RSPE0.tmp"
+<h3>Output Window</h3>
+Linking...
+   Creating library ..\..\StructDatos.lib and object ..\..\StructDatos.exp
+
+
+
+<h3>Results</h3>
+StructDatos.dll - 0 error(s), 0 warning(s)
+</pre>
+</body>
+</html>

@@ -1,0 +1,3 @@
+Dll.Title : Struct.dll
+App.Path : C:\Curso Visual\Install\Lib_Source
+

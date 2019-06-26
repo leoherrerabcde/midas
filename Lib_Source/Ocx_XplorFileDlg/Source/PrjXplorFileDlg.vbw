@@ -1,0 +1,15 @@
+XplorFileDlg = 66, 87, 637, 407, Z, 44, 58, 615, 378, C
+frmIcon = 0, 0, 0, 0, C, 110, 145, 681, 465, C
+modLog = 0, 0, 0, 0, C
+modXploring = 0, 0, 0, 0, C
+clsListFile = 0, 0, 0, 0, C
+cSubclassListView = 0, 0, 0, 0, C
+clsBoton3D = 0, 0, 0, 0, C
+clsTextBox = 0, 0, 0, 0, C
+modGeneralFunctions = 110, 145, 681, 465, 
+modGlobalConstants = 0, 0, 0, 0, C
+modArchivosIni = 0, 0, 0, 0, C
+Efecto3D_BAS = 0, 0, 0, 0, C
+frmNuevaCarpeta = 110, 145, 681, 465, , 22, 29, 593, 349, C
+modSelDirectorio = 66, 87, 637, 407, C
+modExtensions = 66, 87, 637, 407, C

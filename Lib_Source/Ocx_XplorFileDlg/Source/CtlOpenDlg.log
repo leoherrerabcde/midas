@@ -1,0 +1,17 @@
+Line 221: Class ShComboBox.ShComboBox of control ShComboBoxAbPls was not a loaded control class.
+Line 250: Class FileViewControl.FileView of control FileViewAbrirPls was not a loaded control class.
+Line 227: The property name _Version in ShComboBoxAbPls is invalid.
+Line 228: The property name _ExtentX in ShComboBoxAbPls is invalid.
+Line 229: The property name _ExtentY in ShComboBoxAbPls is invalid.
+Line 230: The property name _StockProps in ShComboBoxAbPls is invalid.
+Line 256: The property name _Version in FileViewAbrirPls is invalid.
+Line 257: The property name _ExtentX in FileViewAbrirPls is invalid.
+Line 258: The property name _ExtentY in FileViewAbrirPls is invalid.
+Line 259: The property name _StockProps in FileViewAbrirPls is invalid.
+Line 260: The property name AllowFileExecute in FileViewAbrirPls is invalid.
+Line 261: The property name AllowItemRenaming in FileViewAbrirPls is invalid.
+Line 262: The property name CurrentFolder in FileViewAbrirPls is invalid.
+Line 263: The property name AllowDragDrop in FileViewAbrirPls is invalid.
+Line 273: The property name AllowColumnHeaderDragdrop in FileViewAbrirPls is invalid.
+Line 274: The property name AllowZipFolders in FileViewAbrirPls is invalid.
+Line 275: The property name HideSelection in FileViewAbrirPls is invalid.

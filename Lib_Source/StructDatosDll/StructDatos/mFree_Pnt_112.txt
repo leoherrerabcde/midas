@@ -1,0 +1,2 @@
+ptn	mDataSize	Pointer	p->Busy	p->Index	p->IndexTable	p->Pointer	p->Size	p->Next	p->Prev	Dbg_Count
+0	112	1a4adac	0	3	0	1a47510	128	0	0	14

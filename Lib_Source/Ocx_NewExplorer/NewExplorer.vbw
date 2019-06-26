@@ -1,0 +1,12 @@
+UserControlExplorer = 0, 0, 0, 0, C, 0, 0, 0, 0, C
+cLVHeaderSortIcons = 0, 0, 0, 0, C
+cTVItemData = 0, 0, 0, 0, C
+cVSplitter = 0, 0, 0, 0, C
+mIShellFolderDefs = 66, 87, 637, 407, Z
+mListviewDefs = 0, 0, 571, 320, 
+mShellDefs = 0, 0, 0, 0, C
+mTreeviewDefs = 0, 0, 0, 0, C
+mWindowDefs = 0, 0, 0, 0, C
+mWndProc = 0, 0, 0, 0, C
+Form1 = 88, 116, 659, 436, , 110, 145, 681, 465, C
+modDockForm = 0, 0, 0, 0, C

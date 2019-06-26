@@ -1,0 +1,25 @@
+// TpoReal.cpp: implementation of the CTpoReal class.
+//
+//////////////////////////////////////////////////////////////////////
+#include <time.h>
+#include "TpoReal.h"
+
+//////////////////////////////////////////////////////////////////////
+// Construction/Destruction
+//////////////////////////////////////////////////////////////////////
+
+CTpoReal::CTpoReal()
+{
+	//mTickIni	= GetTickCount();
+}
+
+CTpoReal::~CTpoReal()
+{
+
+}
+
+unsigned long CTpoReal::GetTickEnlased(void)
+{
+	//return GetTickCount() - mTickIni;
+	return 0;
+}

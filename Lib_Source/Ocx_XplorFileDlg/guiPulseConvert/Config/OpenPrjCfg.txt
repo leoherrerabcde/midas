@@ -1,0 +1,6 @@
+[cboExtensiones]
+cboExtensiones.List(0)=*.*
+cboExtensiones.ListIndex=0
+[Configuraciones\OpenDlg]
+Last Path=Z:\Curso Visual\PulseConvert\Pulsos Curso\CASE_007
+FileViewAbrirPls.ViewStyle=1

@@ -1,0 +1,11 @@
+CtlOpenDlg = 66, 87, 718, 518, , 22, 29, 804, 460, C
+frmIcon = 0, 0, 0, 0, C, 44, 58, 659, 374, C
+modLog = 0, 0, 571, 320, 
+Efecto3D_BAS = 0, 0, 0, 0, C
+modArchivosIni = 0, 0, 0, 0, C
+modGeneralFunctions = 66, 87, 637, 407, 
+modGlobalConstants = 0, 0, 0, 0, C
+ModListViewFunctions = 110, 145, 681, 465, Z
+modSelDirectorio = 88, 116, 659, 436, 
+clsBoton3D = 0, 0, 0, 0, C
+clsTextBox = 0, 0, 0, 0, C

@@ -1,0 +1,1025 @@
+# depslib dependency file v1.0
+1326663324 source:c:\users\lherrera\documents\propios\xls\xlslib-2.3.4\xlslib\src\common\overnew.cpp
+	"overnew.h"
+	<math.h>
+	<php.h>
+
+1326663324 c:\users\lherrera\documents\propios\xls\xlslib-2.3.4\xlslib\src\common\overnew.h
+	"xlsys.h"
+	"systype.h"
+	<new>
+	<cstdio>
+
+1326663324 c:\users\lherrera\documents\propios\xls\xlslib-2.3.4\xlslib\src\common\xlsys.h
+	"xlconfig.h"
+	"crtdbg.h"
+	<xdebug>
+	<xlocale>
+	<xiosbase>
+	<xlocnum>
+	<xtree>
+	"ac-config.win32.h"
+	"ac-config.win32.h"
+	"ac-config.linux32.h"
+
+1368575878 c:\users\lherrera\documents\propios\xls\xlslib-2.3.4\xlslib\build\codeblocks\ac-config.linux32.h
+
+1326663324 c:\users\lherrera\documents\propios\xls\xlslib-2.3.4\xlslib\src\common\systype.h
+	<stdio.h>
+	<stdint.h>
+	<inttypes.h>
+	<cstring>
+	<string>
+	<string.h>
+	<iostream>
+	<fstream>
+	<list>
+	<set>
+	<algorithm>
+	"bti_thread_alloc.h"
+	"common/xlstypes.h"
+
+1326663324 c:\users\lherrera\documents\propios\xls\xlslib-2.3.4\xlslib\src\common\xlstypes.h
+	<list>
+	<vector>
+	<algorithm>
+	<string>
+	"xlconfig.h"
+
+1326663324 source:c:\users\lherrera\documents\propios\xls\xlslib-2.3.4\xlslib\src\oledoc\binfile.cpp
+	"oledoc/binfile.h"
+	"xlslib/unit.h"
+
+1326663324 c:\users\lherrera\documents\propios\xls\xlslib-2.3.4\xlslib\src\oledoc\binfile.h
+	<fstream>
+	<string>
+	"common/xlsys.h"
+	"common/systype.h"
+
+1326663324 c:\users\lherrera\documents\propios\xls\xlslib-2.3.4\xlslib\src\xlslib\unit.h
+	"common/xlsys.h"
+	"common/systype.h"
+
+1326663324 source:c:\users\lherrera\documents\propios\xls\xlslib-2.3.4\xlslib\src\oledoc\oledoc.cpp
+	"xlslib/record.h"
+	"xlslib/datast.h"
+	"xlslib/extformat.h"
+	"oledoc/oledoc.h"
+
+1326663324 c:\users\lherrera\documents\propios\xls\xlslib-2.3.4\xlslib\src\xlslib\record.h
+	"common/xlsys.h"
+	"common/systype.h"
+	"xlslib/unit.h"
+
+1326663324 c:\users\lherrera\documents\propios\xls\xlslib-2.3.4\xlslib\src\xlslib\datast.h
+	"common/xlsys.h"
+	"common/systype.h"
+	"xlslib/row.h"
+
+1326663324 c:\users\lherrera\documents\propios\xls\xlslib-2.3.4\xlslib\src\xlslib\row.h
+	"common/xlsys.h"
+	"common/systype.h"
+
+1326663324 c:\users\lherrera\documents\propios\xls\xlslib-2.3.4\xlslib\src\xlslib\extformat.h
+	"common/xlsys.h"
+	"common/systype.h"
+	"xlslib/colors.h"
+	"xlslib/format.h"
+
+1326663324 c:\users\lherrera\documents\propios\xls\xlslib-2.3.4\xlslib\src\xlslib\colors.h
+	"common/xlsys.h"
+	"common/systype.h"
+	"xlslib/record.h"
+
+1326663324 c:\users\lherrera\documents\propios\xls\xlslib-2.3.4\xlslib\src\xlslib\format.h
+	"common/xlsys.h"
+	"common/systype.h"
+
+1326663324 c:\users\lherrera\documents\propios\xls\xlslib-2.3.4\xlslib\src\oledoc\oledoc.h
+	"common/xlsys.h"
+	"oledoc/binfile.h"
+	"oledoc/olefs.h"
+
+1326663324 c:\users\lherrera\documents\propios\xls\xlslib-2.3.4\xlslib\src\oledoc\olefs.h
+	"common/xlsys.h"
+	"oledoc/oleprop.h"
+
+1326663324 c:\users\lherrera\documents\propios\xls\xlslib-2.3.4\xlslib\src\oledoc\oleprop.h
+	<list>
+	<string>
+	"common/xlsys.h"
+
+1326663324 source:c:\users\lherrera\documents\propios\xls\xlslib-2.3.4\xlslib\src\oledoc\olefs.cpp
+	<string>
+	"common/stringtok.h"
+	"xlslib/record.h"
+	"oledoc/olefs.h"
+	"xlslib/datast.h"
+
+1326663324 c:\users\lherrera\documents\propios\xls\xlslib-2.3.4\xlslib\src\common\stringtok.h
+	"common/xlsys.h"
+	<string>
+	<cstring>
+
+1326663324 source:c:\users\lherrera\documents\propios\xls\xlslib-2.3.4\xlslib\src\oledoc\oleprop.cpp
+	"xlslib/record.h"
+	"oledoc/oleprop.h"
+	"xlslib/datast.h"
+
+1326663324 source:c:\users\lherrera\documents\propios\xls\xlslib-2.3.4\xlslib\src\xlslib\hpsf.cpp
+	"xlslib/record.h"
+	"xlslib/HPSF.h"
+	"xlslib/datast.h"
+	"xlslib/unit.h"
+
+1326663324 c:\users\lherrera\documents\propios\xls\xlslib-2.3.4\xlslib\src\xlslib\hpsf.h
+	<time.h>
+	"common/xlsys.h"
+	"common/systype.h"
+
+1326663324 source:c:\users\lherrera\documents\propios\xls\xlslib-2.3.4\xlslib\src\xlslib\assert_assist.cpp
+	"common/xlsys.h"
+	"common/systype.h"
+	"xlslib/tostr.h"
+
+1326663324 c:\users\lherrera\documents\propios\xls\xlslib-2.3.4\xlslib\src\xlslib\tostr.h
+	<string>
+	<sstream>
+	<iostream>
+	"common/xlsys.h"
+	"common/systype.h"
+
+1326663324 source:c:\users\lherrera\documents\propios\xls\xlslib-2.3.4\xlslib\src\xlslib\blank.cpp
+	"xlslib/record.h"
+	"xlslib/blank.h"
+	"xlslib/datast.h"
+	"xlslib/rectypes.h"
+
+1326663324 c:\users\lherrera\documents\propios\xls\xlslib-2.3.4\xlslib\src\xlslib\blank.h
+	"common/xlsys.h"
+	"common/systype.h"
+	"xlslib/cell.h"
+
+1326663324 c:\users\lherrera\documents\propios\xls\xlslib-2.3.4\xlslib\src\xlslib\cell.h
+	"common/xlsys.h"
+	"common/systype.h"
+	"xlslib/font.h"
+	"xlslib/extformat.h"
+
+1326663324 c:\users\lherrera\documents\propios\xls\xlslib-2.3.4\xlslib\src\xlslib\font.h
+	"common/xlsys.h"
+	"common/systype.h"
+	"xlslib/colors.h"
+
+1326663324 c:\users\lherrera\documents\propios\xls\xlslib-2.3.4\xlslib\src\xlslib\rectypes.h
+
+1326663324 source:c:\users\lherrera\documents\propios\xls\xlslib-2.3.4\xlslib\src\xlslib\boolean.cpp
+	"xlslib/record.h"
+	"xlslib/boolean.h"
+	"xlslib/datast.h"
+	"xlslib/rectypes.h"
+
+1326663324 c:\users\lherrera\documents\propios\xls\xlslib-2.3.4\xlslib\src\xlslib\boolean.h
+	"common/xlsys.h"
+	"common/systype.h"
+	"xlslib/cell.h"
+
+1326663324 source:c:\users\lherrera\documents\propios\xls\xlslib-2.3.4\xlslib\src\xlslib\cbridge.cpp
+	<sys/types.h>
+	<string>
+	"common/xlsys.h"
+	"common/systype.h"
+	"xlslib/common.h"
+	"xlslib/record.h"
+	"xlslib.h"
+
+1326663324 c:\users\lherrera\documents\propios\xls\xlslib-2.3.4\xlslib\src\xlslib\common.h
+	<iconv.h>
+
+1326663324 c:\users\lherrera\documents\propios\xls\xlslib-2.3.4\xlslib\src\xlslib.h
+	<string>
+	"common/xlsys.h"
+	"common/xlstypes.h"
+	"xlslib/record.h"
+	"xlslib/globalrec.h"
+	"xlslib/range.h"
+	"xlslib/colinfo.h"
+	"xlslib/row.h"
+	"xlslib/formula.h"
+	"xlslib/sheetrec.h"
+	"xlslib/workbook.h"
+	"common/xlstypes.h"
+
+1326663324 c:\users\lherrera\documents\propios\xls\xlslib-2.3.4\xlslib\src\xlslib\globalrec.h
+	"common/xlsys.h"
+	"common/systype.h"
+	"xlslib/biffsection.h"
+	"xlslib/label.h"
+	"xlslib/recdef.h"
+
+1326663324 c:\users\lherrera\documents\propios\xls\xlslib-2.3.4\xlslib\src\xlslib\biffsection.h
+	"common/xlsys.h"
+
+1326663324 c:\users\lherrera\documents\propios\xls\xlslib-2.3.4\xlslib\src\xlslib\label.h
+	"common/xlsys.h"
+	"common/systype.h"
+	"xlslib/cell.h"
+
+1326663324 c:\users\lherrera\documents\propios\xls\xlslib-2.3.4\xlslib\src\xlslib\recdef.h
+	"common/xlsys.h"
+	"common/systype.h"
+
+1326663324 c:\users\lherrera\documents\propios\xls\xlslib-2.3.4\xlslib\src\xlslib\range.h
+	"common/xlsys.h"
+	"common/systype.h"
+	"xlslib/extformat.h"
+	"xlslib/font.h"
+	"xlslib/common.h"
+
+1326663324 c:\users\lherrera\documents\propios\xls\xlslib-2.3.4\xlslib\src\xlslib\colinfo.h
+	"common/xlsys.h"
+	"common/systype.h"
+	"xlslib/extformat.h"
+
+1326663324 c:\users\lherrera\documents\propios\xls\xlslib-2.3.4\xlslib\src\xlslib\formula.h
+	"common/xlsys.h"
+	"common/systype.h"
+	"xlslib/err.h"
+
+1326663324 c:\users\lherrera\documents\propios\xls\xlslib-2.3.4\xlslib\src\xlslib\err.h
+	"common/xlsys.h"
+	"common/systype.h"
+	"xlslib/cell.h"
+
+1326663324 c:\users\lherrera\documents\propios\xls\xlslib-2.3.4\xlslib\src\xlslib\sheetrec.h
+	"common/xlsys.h"
+	"common/systype.h"
+	"xlslib/colinfo.h"
+	"xlslib/row.h"
+
+1326663324 c:\users\lherrera\documents\propios\xls\xlslib-2.3.4\xlslib\src\xlslib\workbook.h
+	"common/xlsys.h"
+	"common/systype.h"
+	"xlslib/summinfo.h"
+	"xlslib/docsumminfo.h"
+	"xlslib/formula.h"
+	"xlslib/globalrec.h"
+	"xlslib/sheetrec.h"
+
+1326663324 c:\users\lherrera\documents\propios\xls\xlslib-2.3.4\xlslib\src\xlslib\summinfo.h
+	"common/xlsys.h"
+	"common/systype.h"
+
+1326663324 c:\users\lherrera\documents\propios\xls\xlslib-2.3.4\xlslib\src\xlslib\docsumminfo.h
+	"common/xlsys.h"
+	"common/systype.h"
+
+1326663324 source:c:\users\lherrera\documents\propios\xls\xlslib-2.3.4\xlslib\src\xlslib\cell.cpp
+	"xlslib/record.h"
+	"xlslib/cell.h"
+	"xlslib/globalrec.h"
+
+1326663324 source:c:\users\lherrera\documents\propios\xls\xlslib-2.3.4\xlslib\src\xlslib\colinfo.cpp
+	"xlslib/record.h"
+	"xlslib/colinfo.h"
+	"xlslib/rectypes.h"
+
+1326663324 source:c:\users\lherrera\documents\propios\xls\xlslib-2.3.4\xlslib\src\xlslib\colors.cpp
+	"xlslib/record.h"
+	"xlslib/colors.h"
+	"xlslib/datast.h"
+	"xlslib/rectypes.h"
+
+1326663324 source:c:\users\lherrera\documents\propios\xls\xlslib-2.3.4\xlslib\src\xlslib\continue.cpp
+	"xlslib/record.h"
+	"xlslib/continue.h"
+	"xlslib/rectypes.h"
+
+1326663324 c:\users\lherrera\documents\propios\xls\xlslib-2.3.4\xlslib\src\xlslib\continue.h
+	"common/xlsys.h"
+	"common/systype.h"
+
+1326663324 source:c:\users\lherrera\documents\propios\xls\xlslib-2.3.4\xlslib\src\xlslib\datast.cpp
+	"xlslib/record.h"
+	"xlslib/datast.h"
+	"xlslib/rectypes.h"
+	"xlslib/font.h"
+	"xlslib/format.h"
+	"xlslib/number.h"
+	"xlslib/boolean.h"
+	"xlslib/err.h"
+	"xlslib/note.h"
+	"xlslib/formula.h"
+	"xlslib/merged.h"
+	"xlslib/label.h"
+	"xlslib/index.h"
+	"xlslib/extformat.h"
+	"xlslib/continue.h"
+	"xlslib/colinfo.h"
+	"xlslib/blank.h"
+	"xlslib/recdef.h"
+	"xlslib/HPSF.h"
+	<malloc.h>
+	<memory.h>
+
+1326663324 c:\users\lherrera\documents\propios\xls\xlslib-2.3.4\xlslib\src\xlslib\number.h
+	"common/xlsys.h"
+	"common/systype.h"
+	"xlslib/cell.h"
+
+1326663324 c:\users\lherrera\documents\propios\xls\xlslib-2.3.4\xlslib\src\xlslib\note.h
+	"common/xlsys.h"
+	"common/systype.h"
+	"xlslib/cell.h"
+
+1326663324 c:\users\lherrera\documents\propios\xls\xlslib-2.3.4\xlslib\src\xlslib\merged.h
+	"common/xlsys.h"
+	"common/systype.h"
+	"xlslib/record.h"
+
+1326663324 c:\users\lherrera\documents\propios\xls\xlslib-2.3.4\xlslib\src\xlslib\index.h
+	"common/xlsys.h"
+	"common/systype.h"
+	"xlslib/record.h"
+
+1326663324 source:c:\users\lherrera\documents\propios\xls\xlslib-2.3.4\xlslib\src\xlslib\docsumminfo.cpp
+	"xlslib/record.h"
+	"xlslib/datast.h"
+	"xlslib/summinfo.h"
+	"xlslib/docsumminfo.h"
+	"xlslib/HPSF.h"
+
+1326663324 source:c:\users\lherrera\documents\propios\xls\xlslib-2.3.4\xlslib\src\xlslib\err.cpp
+	"xlslib/record.h"
+	"xlslib/err.h"
+	"xlslib/datast.h"
+	"xlslib/rectypes.h"
+
+1326663324 source:c:\users\lherrera\documents\propios\xls\xlslib-2.3.4\xlslib\src\xlslib\extformat.cpp
+	<sstream>
+	"xlslib/record.h"
+	"xlslib/extformat.h"
+	"xlslib/globalrec.h"
+	"xlslib/rectypes.h"
+
+1326663324 source:c:\users\lherrera\documents\propios\xls\xlslib-2.3.4\xlslib\src\xlslib\font.cpp
+	"xlslib/record.h"
+	"xlslib/font.h"
+	"xlslib/globalrec.h"
+	"xlslib/rectypes.h"
+
+1326663324 source:c:\users\lherrera\documents\propios\xls\xlslib-2.3.4\xlslib\src\xlslib\format.cpp
+	"xlslib/record.h"
+	"xlslib/format.h"
+	"xlslib/globalrec.h"
+	"xlslib/rectypes.h"
+
+1326663324 source:c:\users\lherrera\documents\propios\xls\xlslib-2.3.4\xlslib\src\xlslib\formula.cpp
+	"xlslib/record.h"
+	"xlslib/formula.h"
+	"xlslib/globalrec.h"
+	"xlslib/datast.h"
+	"xlslib/cell.h"
+	"xlslib/rectypes.h"
+	<malloc.h>
+	<memory.h>
+	"common/xls_pshpack1.h"
+	"common/xls_poppack.h"
+
+1326663324 c:\users\lherrera\documents\propios\xls\xlslib-2.3.4\xlslib\src\common\xls_pshpack1.h
+	<pshpack1.h>
+
+1326663324 c:\users\lherrera\documents\propios\xls\xlslib-2.3.4\xlslib\src\common\xls_poppack.h
+	<poppack.h>
+
+1326663324 source:c:\users\lherrera\documents\propios\xls\xlslib-2.3.4\xlslib\src\xlslib\globalrec.cpp
+	"xlslib/record.h"
+	"xlslib/recdef.h"
+	"xlslib/globalrec.h"
+	"xlslib/datast.h"
+	"xlslib/common.h"
+	<errno.h>
+
+1326663324 source:c:\users\lherrera\documents\propios\xls\xlslib-2.3.4\xlslib\src\xlslib\index.cpp
+	"xlslib/index.h"
+	"xlslib/datast.h"
+	"xlslib/rectypes.h"
+
+1326663324 source:c:\users\lherrera\documents\propios\xls\xlslib-2.3.4\xlslib\src\xlslib\label.cpp
+	"xlslib/record.h"
+	"xlslib/label.h"
+	"xlslib/globalrec.h"
+	"xlslib/datast.h"
+	"xlslib/rectypes.h"
+
+1326663324 source:c:\users\lherrera\documents\propios\xls\xlslib-2.3.4\xlslib\src\xlslib\merged.cpp
+	"xlslib/merged.h"
+	"xlslib/common.h"
+	"xlslib/rectypes.h"
+
+1326663324 source:c:\users\lherrera\documents\propios\xls\xlslib-2.3.4\xlslib\src\xlslib\note.cpp
+	"xlslib/record.h"
+	"xlslib/note.h"
+	"xlslib/globalrec.h"
+	"xlslib/datast.h"
+	"xlslib/rectypes.h"
+
+1326663324 source:c:\users\lherrera\documents\propios\xls\xlslib-2.3.4\xlslib\src\xlslib\number.cpp
+	"xlslib/record.h"
+	"xlslib/number.h"
+	"xlslib/datast.h"
+	"xlslib/rectypes.h"
+
+1326663324 source:c:\users\lherrera\documents\propios\xls\xlslib-2.3.4\xlslib\src\xlslib\range.cpp
+	"xlslib/record.h"
+	"xlslib/biffsection.h"
+	"xlslib/formula.h"
+	"xlslib/range.h"
+	"xlslib/colinfo.h"
+	"xlslib/row.h"
+	"xlslib/sheetrec.h"
+	"xlslib/range.h"
+
+1326663324 source:c:\users\lherrera\documents\propios\xls\xlslib-2.3.4\xlslib\src\xlslib\recdef.cpp
+	"xlslib/record.h"
+	"xlslib/colors.h"
+	"xlslib/recdef.h"
+	"xlslib/datast.h"
+	"xlslib/rectypes.h"
+
+1326663324 source:c:\users\lherrera\documents\propios\xls\xlslib-2.3.4\xlslib\src\xlslib\record.cpp
+	"xlslib/record.h"
+	"xlslib/rectypes.h"
+
+1326663324 source:c:\users\lherrera\documents\propios\xls\xlslib-2.3.4\xlslib\src\xlslib\row.cpp
+	"xlslib/record.h"
+	"xlslib/row.h"
+	"xlslib/datast.h"
+	"xlslib/rectypes.h"
+	"xlslib/extformat.h"
+
+1326663324 source:c:\users\lherrera\documents\propios\xls\xlslib-2.3.4\xlslib\src\xlslib\sheetrec.cpp
+	"xlslib/record.h"
+	"xlslib/blank.h"
+	"xlslib/boolean.h"
+	"xlslib/common.h"
+	"xlslib/datast.h"
+	"xlslib/err.h"
+	"xlslib/extformat.h"
+	"xlslib/formula.h"
+	"xlslib/globalrec.h"
+	"xlslib/index.h"
+	"xlslib/label.h"
+	"xlslib/merged.h"
+	"xlslib/note.h"
+	"xlslib/number.h"
+	"xlslib/range.h"
+	"xlslib/rectypes.h"
+	"xlslib/sheetrec.h"
+
+1326663324 source:c:\users\lherrera\documents\propios\xls\xlslib-2.3.4\xlslib\src\xlslib\summinfo.cpp
+	<time.h>
+	"xlslib/record.h"
+	"xlslib/summinfo.h"
+	"xlslib/HPSF.h"
+	"xlslib/datast.h"
+
+1326663324 source:c:\users\lherrera\documents\propios\xls\xlslib-2.3.4\xlslib\src\xlslib\unit.cpp
+	<memory.h>
+	"xlslib/record.h"
+	"xlslib/unit.h"
+	"xlslib/globalrec.h"
+	"xlslib/rectypes.h"
+	"xlslib/datast.h"
+	"common/xls_pshpack1.h"
+	"common/xls_poppack.h"
+
+1326663324 source:c:\users\lherrera\documents\propios\xls\xlslib-2.3.4\xlslib\src\xlslib\workbook.cpp
+	"xlslib/record.h"
+	"xlslib/biffsection.h"
+	"xlslib/colinfo.h"
+	"xlslib/continue.h"
+	"xlslib/datast.h"
+	"xlslib/err.h"
+	"xlslib/formula.h"
+	"xlslib/range.h"
+	"xlslib/recdef.h"
+	"xlslib/rectypes.h"
+	"xlslib/row.h"
+	"xlslib/sheetrec.h"
+	"xlslib/workbook.h"
+	"oledoc/oledoc.h"
+	<errno.h>
+
+1326663324 source:c:\users\leonardo herrera\documents\proyectos\desarrollo\xlslib-2.3.4\xlslib\src\common\overnew.cpp
+	"overnew.h"
+	<math.h>
+	<php.h>
+
+1326663324 c:\users\leonardo herrera\documents\proyectos\desarrollo\xlslib-2.3.4\xlslib\src\common\overnew.h
+	"xlsys.h"
+	"systype.h"
+	<new>
+	<cstdio>
+
+1326663324 c:\users\leonardo herrera\documents\proyectos\desarrollo\xlslib-2.3.4\xlslib\src\common\xlsys.h
+	"xlconfig.h"
+	"crtdbg.h"
+	<xdebug>
+	<xlocale>
+	<xiosbase>
+	<xlocnum>
+	<xtree>
+	"ac-config.win32.h"
+	"ac-config.win32.h"
+	"ac-config.linux32.h"
+
+1368575880 c:\users\leonardo herrera\documents\proyectos\desarrollo\xlslib-2.3.4\xlslib\build\codeblocks\ac-config.linux32.h
+
+1326663324 c:\users\leonardo herrera\documents\proyectos\desarrollo\xlslib-2.3.4\xlslib\src\common\systype.h
+	<stdio.h>
+	<stdint.h>
+	<inttypes.h>
+	<cstring>
+	<string>
+	<string.h>
+	<iostream>
+	<fstream>
+	<list>
+	<set>
+	<algorithm>
+	"bti_thread_alloc.h"
+	"common/xlstypes.h"
+
+1326663324 c:\users\leonardo herrera\documents\proyectos\desarrollo\xlslib-2.3.4\xlslib\src\common\xlstypes.h
+	<list>
+	<vector>
+	<algorithm>
+	<string>
+	"xlconfig.h"
+
+1326663324 source:c:\users\leonardo herrera\documents\proyectos\desarrollo\xlslib-2.3.4\xlslib\src\oledoc\binfile.cpp
+	"oledoc/binfile.h"
+	"xlslib/unit.h"
+
+1326663324 c:\users\leonardo herrera\documents\proyectos\desarrollo\xlslib-2.3.4\xlslib\src\oledoc\binfile.h
+	<fstream>
+	<string>
+	"common/xlsys.h"
+	"common/systype.h"
+
+1326663324 c:\users\leonardo herrera\documents\proyectos\desarrollo\xlslib-2.3.4\xlslib\src\xlslib\unit.h
+	"common/xlsys.h"
+	"common/systype.h"
+
+1326663324 source:c:\users\leonardo herrera\documents\proyectos\desarrollo\xlslib-2.3.4\xlslib\src\oledoc\oledoc.cpp
+	"xlslib/record.h"
+	"xlslib/datast.h"
+	"xlslib/extformat.h"
+	"oledoc/oledoc.h"
+
+1326663324 c:\users\leonardo herrera\documents\proyectos\desarrollo\xlslib-2.3.4\xlslib\src\xlslib\record.h
+	"common/xlsys.h"
+	"common/systype.h"
+	"xlslib/unit.h"
+
+1326663324 c:\users\leonardo herrera\documents\proyectos\desarrollo\xlslib-2.3.4\xlslib\src\xlslib\datast.h
+	"common/xlsys.h"
+	"common/systype.h"
+	"xlslib/row.h"
+
+1326663324 c:\users\leonardo herrera\documents\proyectos\desarrollo\xlslib-2.3.4\xlslib\src\xlslib\row.h
+	"common/xlsys.h"
+	"common/systype.h"
+
+1326663324 c:\users\leonardo herrera\documents\proyectos\desarrollo\xlslib-2.3.4\xlslib\src\xlslib\extformat.h
+	"common/xlsys.h"
+	"common/systype.h"
+	"xlslib/colors.h"
+	"xlslib/format.h"
+
+1326663324 c:\users\leonardo herrera\documents\proyectos\desarrollo\xlslib-2.3.4\xlslib\src\xlslib\colors.h
+	"common/xlsys.h"
+	"common/systype.h"
+	"xlslib/record.h"
+
+1326663324 c:\users\leonardo herrera\documents\proyectos\desarrollo\xlslib-2.3.4\xlslib\src\xlslib\format.h
+	"common/xlsys.h"
+	"common/systype.h"
+
+1326663324 c:\users\leonardo herrera\documents\proyectos\desarrollo\xlslib-2.3.4\xlslib\src\oledoc\oledoc.h
+	"common/xlsys.h"
+	"oledoc/binfile.h"
+	"oledoc/olefs.h"
+
+1326663324 c:\users\leonardo herrera\documents\proyectos\desarrollo\xlslib-2.3.4\xlslib\src\oledoc\olefs.h
+	"common/xlsys.h"
+	"oledoc/oleprop.h"
+
+1326663324 c:\users\leonardo herrera\documents\proyectos\desarrollo\xlslib-2.3.4\xlslib\src\oledoc\oleprop.h
+	<list>
+	<string>
+	"common/xlsys.h"
+
+1326663324 source:c:\users\leonardo herrera\documents\proyectos\desarrollo\xlslib-2.3.4\xlslib\src\oledoc\olefs.cpp
+	<string>
+	"common/stringtok.h"
+	"xlslib/record.h"
+	"oledoc/olefs.h"
+	"xlslib/datast.h"
+
+1326663324 c:\users\leonardo herrera\documents\proyectos\desarrollo\xlslib-2.3.4\xlslib\src\common\stringtok.h
+	"common/xlsys.h"
+	<string>
+	<cstring>
+
+1326663324 source:c:\users\leonardo herrera\documents\proyectos\desarrollo\xlslib-2.3.4\xlslib\src\oledoc\oleprop.cpp
+	"xlslib/record.h"
+	"oledoc/oleprop.h"
+	"xlslib/datast.h"
+
+1326663324 source:c:\users\leonardo herrera\documents\proyectos\desarrollo\xlslib-2.3.4\xlslib\src\xlslib\hpsf.cpp
+	"xlslib/record.h"
+	"xlslib/HPSF.h"
+	"xlslib/datast.h"
+	"xlslib/unit.h"
+
+1326663324 c:\users\leonardo herrera\documents\proyectos\desarrollo\xlslib-2.3.4\xlslib\src\xlslib\hpsf.h
+	<time.h>
+	"common/xlsys.h"
+	"common/systype.h"
+
+1326663324 source:c:\users\leonardo herrera\documents\proyectos\desarrollo\xlslib-2.3.4\xlslib\src\xlslib\assert_assist.cpp
+	"common/xlsys.h"
+	"common/systype.h"
+	"xlslib/tostr.h"
+
+1326663324 c:\users\leonardo herrera\documents\proyectos\desarrollo\xlslib-2.3.4\xlslib\src\xlslib\tostr.h
+	<string>
+	<sstream>
+	<iostream>
+	"common/xlsys.h"
+	"common/systype.h"
+
+1326663324 source:c:\users\leonardo herrera\documents\proyectos\desarrollo\xlslib-2.3.4\xlslib\src\xlslib\blank.cpp
+	"xlslib/record.h"
+	"xlslib/blank.h"
+	"xlslib/datast.h"
+	"xlslib/rectypes.h"
+
+1326663324 c:\users\leonardo herrera\documents\proyectos\desarrollo\xlslib-2.3.4\xlslib\src\xlslib\blank.h
+	"common/xlsys.h"
+	"common/systype.h"
+	"xlslib/cell.h"
+
+1326663324 c:\users\leonardo herrera\documents\proyectos\desarrollo\xlslib-2.3.4\xlslib\src\xlslib\cell.h
+	"common/xlsys.h"
+	"common/systype.h"
+	"xlslib/font.h"
+	"xlslib/extformat.h"
+
+1326663324 c:\users\leonardo herrera\documents\proyectos\desarrollo\xlslib-2.3.4\xlslib\src\xlslib\font.h
+	"common/xlsys.h"
+	"common/systype.h"
+	"xlslib/colors.h"
+
+1326663324 c:\users\leonardo herrera\documents\proyectos\desarrollo\xlslib-2.3.4\xlslib\src\xlslib\rectypes.h
+
+1326663324 source:c:\users\leonardo herrera\documents\proyectos\desarrollo\xlslib-2.3.4\xlslib\src\xlslib\boolean.cpp
+	"xlslib/record.h"
+	"xlslib/boolean.h"
+	"xlslib/datast.h"
+	"xlslib/rectypes.h"
+
+1326663324 c:\users\leonardo herrera\documents\proyectos\desarrollo\xlslib-2.3.4\xlslib\src\xlslib\boolean.h
+	"common/xlsys.h"
+	"common/systype.h"
+	"xlslib/cell.h"
+
+1326663324 source:c:\users\leonardo herrera\documents\proyectos\desarrollo\xlslib-2.3.4\xlslib\src\xlslib\cbridge.cpp
+	<sys/types.h>
+	<string>
+	"common/xlsys.h"
+	"common/systype.h"
+	"xlslib/common.h"
+	"xlslib/record.h"
+	"xlslib.h"
+
+1326663324 c:\users\leonardo herrera\documents\proyectos\desarrollo\xlslib-2.3.4\xlslib\src\xlslib\common.h
+	<iconv.h>
+
+1326663324 c:\users\leonardo herrera\documents\proyectos\desarrollo\xlslib-2.3.4\xlslib\src\xlslib.h
+	<string>
+	"common/xlsys.h"
+	"common/xlstypes.h"
+	"xlslib/record.h"
+	"xlslib/globalrec.h"
+	"xlslib/range.h"
+	"xlslib/colinfo.h"
+	"xlslib/row.h"
+	"xlslib/formula.h"
+	"xlslib/sheetrec.h"
+	"xlslib/workbook.h"
+	"common/xlstypes.h"
+
+1326663324 c:\users\leonardo herrera\documents\proyectos\desarrollo\xlslib-2.3.4\xlslib\src\xlslib\globalrec.h
+	"common/xlsys.h"
+	"common/systype.h"
+	"xlslib/biffsection.h"
+	"xlslib/label.h"
+	"xlslib/recdef.h"
+
+1326663324 c:\users\leonardo herrera\documents\proyectos\desarrollo\xlslib-2.3.4\xlslib\src\xlslib\biffsection.h
+	"common/xlsys.h"
+
+1326663324 c:\users\leonardo herrera\documents\proyectos\desarrollo\xlslib-2.3.4\xlslib\src\xlslib\label.h
+	"common/xlsys.h"
+	"common/systype.h"
+	"xlslib/cell.h"
+
+1326663324 c:\users\leonardo herrera\documents\proyectos\desarrollo\xlslib-2.3.4\xlslib\src\xlslib\recdef.h
+	"common/xlsys.h"
+	"common/systype.h"
+
+1326663324 c:\users\leonardo herrera\documents\proyectos\desarrollo\xlslib-2.3.4\xlslib\src\xlslib\range.h
+	"common/xlsys.h"
+	"common/systype.h"
+	"xlslib/extformat.h"
+	"xlslib/font.h"
+	"xlslib/common.h"
+
+1326663324 c:\users\leonardo herrera\documents\proyectos\desarrollo\xlslib-2.3.4\xlslib\src\xlslib\colinfo.h
+	"common/xlsys.h"
+	"common/systype.h"
+	"xlslib/extformat.h"
+
+1326663324 c:\users\leonardo herrera\documents\proyectos\desarrollo\xlslib-2.3.4\xlslib\src\xlslib\formula.h
+	"common/xlsys.h"
+	"common/systype.h"
+	"xlslib/err.h"
+
+1326663324 c:\users\leonardo herrera\documents\proyectos\desarrollo\xlslib-2.3.4\xlslib\src\xlslib\err.h
+	"common/xlsys.h"
+	"common/systype.h"
+	"xlslib/cell.h"
+
+1326663324 c:\users\leonardo herrera\documents\proyectos\desarrollo\xlslib-2.3.4\xlslib\src\xlslib\sheetrec.h
+	"common/xlsys.h"
+	"common/systype.h"
+	"xlslib/colinfo.h"
+	"xlslib/row.h"
+
+1326663324 c:\users\leonardo herrera\documents\proyectos\desarrollo\xlslib-2.3.4\xlslib\src\xlslib\workbook.h
+	"common/xlsys.h"
+	"common/systype.h"
+	"xlslib/summinfo.h"
+	"xlslib/docsumminfo.h"
+	"xlslib/formula.h"
+	"xlslib/globalrec.h"
+	"xlslib/sheetrec.h"
+
+1326663324 c:\users\leonardo herrera\documents\proyectos\desarrollo\xlslib-2.3.4\xlslib\src\xlslib\summinfo.h
+	"common/xlsys.h"
+	"common/systype.h"
+
+1326663324 c:\users\leonardo herrera\documents\proyectos\desarrollo\xlslib-2.3.4\xlslib\src\xlslib\docsumminfo.h
+	"common/xlsys.h"
+	"common/systype.h"
+
+1326663324 source:c:\users\leonardo herrera\documents\proyectos\desarrollo\xlslib-2.3.4\xlslib\src\xlslib\cell.cpp
+	"xlslib/record.h"
+	"xlslib/cell.h"
+	"xlslib/globalrec.h"
+
+1326663324 source:c:\users\leonardo herrera\documents\proyectos\desarrollo\xlslib-2.3.4\xlslib\src\xlslib\colinfo.cpp
+	"xlslib/record.h"
+	"xlslib/colinfo.h"
+	"xlslib/rectypes.h"
+
+1326663324 source:c:\users\leonardo herrera\documents\proyectos\desarrollo\xlslib-2.3.4\xlslib\src\xlslib\colors.cpp
+	"xlslib/record.h"
+	"xlslib/colors.h"
+	"xlslib/datast.h"
+	"xlslib/rectypes.h"
+
+1326663324 source:c:\users\leonardo herrera\documents\proyectos\desarrollo\xlslib-2.3.4\xlslib\src\xlslib\continue.cpp
+	"xlslib/record.h"
+	"xlslib/continue.h"
+	"xlslib/rectypes.h"
+
+1326663324 c:\users\leonardo herrera\documents\proyectos\desarrollo\xlslib-2.3.4\xlslib\src\xlslib\continue.h
+	"common/xlsys.h"
+	"common/systype.h"
+
+1326663324 source:c:\users\leonardo herrera\documents\proyectos\desarrollo\xlslib-2.3.4\xlslib\src\xlslib\datast.cpp
+	"xlslib/record.h"
+	"xlslib/datast.h"
+	"xlslib/rectypes.h"
+	"xlslib/font.h"
+	"xlslib/format.h"
+	"xlslib/number.h"
+	"xlslib/boolean.h"
+	"xlslib/err.h"
+	"xlslib/note.h"
+	"xlslib/formula.h"
+	"xlslib/merged.h"
+	"xlslib/label.h"
+	"xlslib/index.h"
+	"xlslib/extformat.h"
+	"xlslib/continue.h"
+	"xlslib/colinfo.h"
+	"xlslib/blank.h"
+	"xlslib/recdef.h"
+	"xlslib/HPSF.h"
+	<malloc.h>
+	<memory.h>
+
+1326663324 c:\users\leonardo herrera\documents\proyectos\desarrollo\xlslib-2.3.4\xlslib\src\xlslib\number.h
+	"common/xlsys.h"
+	"common/systype.h"
+	"xlslib/cell.h"
+
+1326663324 c:\users\leonardo herrera\documents\proyectos\desarrollo\xlslib-2.3.4\xlslib\src\xlslib\note.h
+	"common/xlsys.h"
+	"common/systype.h"
+	"xlslib/cell.h"
+
+1326663324 c:\users\leonardo herrera\documents\proyectos\desarrollo\xlslib-2.3.4\xlslib\src\xlslib\merged.h
+	"common/xlsys.h"
+	"common/systype.h"
+	"xlslib/record.h"
+
+1326663324 c:\users\leonardo herrera\documents\proyectos\desarrollo\xlslib-2.3.4\xlslib\src\xlslib\index.h
+	"common/xlsys.h"
+	"common/systype.h"
+	"xlslib/record.h"
+
+1326663324 source:c:\users\leonardo herrera\documents\proyectos\desarrollo\xlslib-2.3.4\xlslib\src\xlslib\docsumminfo.cpp
+	"xlslib/record.h"
+	"xlslib/datast.h"
+	"xlslib/summinfo.h"
+	"xlslib/docsumminfo.h"
+	"xlslib/HPSF.h"
+
+1326663324 source:c:\users\leonardo herrera\documents\proyectos\desarrollo\xlslib-2.3.4\xlslib\src\xlslib\err.cpp
+	"xlslib/record.h"
+	"xlslib/err.h"
+	"xlslib/datast.h"
+	"xlslib/rectypes.h"
+
+1326663324 source:c:\users\leonardo herrera\documents\proyectos\desarrollo\xlslib-2.3.4\xlslib\src\xlslib\extformat.cpp
+	<sstream>
+	"xlslib/record.h"
+	"xlslib/extformat.h"
+	"xlslib/globalrec.h"
+	"xlslib/rectypes.h"
+
+1326663324 source:c:\users\leonardo herrera\documents\proyectos\desarrollo\xlslib-2.3.4\xlslib\src\xlslib\font.cpp
+	"xlslib/record.h"
+	"xlslib/font.h"
+	"xlslib/globalrec.h"
+	"xlslib/rectypes.h"
+
+1326663324 source:c:\users\leonardo herrera\documents\proyectos\desarrollo\xlslib-2.3.4\xlslib\src\xlslib\format.cpp
+	"xlslib/record.h"
+	"xlslib/format.h"
+	"xlslib/globalrec.h"
+	"xlslib/rectypes.h"
+
+1326663324 source:c:\users\leonardo herrera\documents\proyectos\desarrollo\xlslib-2.3.4\xlslib\src\xlslib\formula.cpp
+	"xlslib/record.h"
+	"xlslib/formula.h"
+	"xlslib/globalrec.h"
+	"xlslib/datast.h"
+	"xlslib/cell.h"
+	"xlslib/rectypes.h"
+	<malloc.h>
+	<memory.h>
+	"common/xls_pshpack1.h"
+	"common/xls_poppack.h"
+
+1326663324 c:\users\leonardo herrera\documents\proyectos\desarrollo\xlslib-2.3.4\xlslib\src\common\xls_pshpack1.h
+	<pshpack1.h>
+
+1326663324 c:\users\leonardo herrera\documents\proyectos\desarrollo\xlslib-2.3.4\xlslib\src\common\xls_poppack.h
+	<poppack.h>
+
+1326663324 source:c:\users\leonardo herrera\documents\proyectos\desarrollo\xlslib-2.3.4\xlslib\src\xlslib\globalrec.cpp
+	"xlslib/record.h"
+	"xlslib/recdef.h"
+	"xlslib/globalrec.h"
+	"xlslib/datast.h"
+	"xlslib/common.h"
+	<errno.h>
+
+1326663324 source:c:\users\leonardo herrera\documents\proyectos\desarrollo\xlslib-2.3.4\xlslib\src\xlslib\index.cpp
+	"xlslib/index.h"
+	"xlslib/datast.h"
+	"xlslib/rectypes.h"
+
+1326663324 source:c:\users\leonardo herrera\documents\proyectos\desarrollo\xlslib-2.3.4\xlslib\src\xlslib\label.cpp
+	"xlslib/record.h"
+	"xlslib/label.h"
+	"xlslib/globalrec.h"
+	"xlslib/datast.h"
+	"xlslib/rectypes.h"
+
+1326663324 source:c:\users\leonardo herrera\documents\proyectos\desarrollo\xlslib-2.3.4\xlslib\src\xlslib\merged.cpp
+	"xlslib/merged.h"
+	"xlslib/common.h"
+	"xlslib/rectypes.h"
+
+1326663324 source:c:\users\leonardo herrera\documents\proyectos\desarrollo\xlslib-2.3.4\xlslib\src\xlslib\note.cpp
+	"xlslib/record.h"
+	"xlslib/note.h"
+	"xlslib/globalrec.h"
+	"xlslib/datast.h"
+	"xlslib/rectypes.h"
+
+1326663324 source:c:\users\leonardo herrera\documents\proyectos\desarrollo\xlslib-2.3.4\xlslib\src\xlslib\number.cpp
+	"xlslib/record.h"
+	"xlslib/number.h"
+	"xlslib/datast.h"
+	"xlslib/rectypes.h"
+
+1326663324 source:c:\users\leonardo herrera\documents\proyectos\desarrollo\xlslib-2.3.4\xlslib\src\xlslib\range.cpp
+	"xlslib/record.h"
+	"xlslib/biffsection.h"
+	"xlslib/formula.h"
+	"xlslib/range.h"
+	"xlslib/colinfo.h"
+	"xlslib/row.h"
+	"xlslib/sheetrec.h"
+	"xlslib/range.h"
+
+1326663324 source:c:\users\leonardo herrera\documents\proyectos\desarrollo\xlslib-2.3.4\xlslib\src\xlslib\recdef.cpp
+	"xlslib/record.h"
+	"xlslib/colors.h"
+	"xlslib/recdef.h"
+	"xlslib/datast.h"
+	"xlslib/rectypes.h"
+
+1326663324 source:c:\users\leonardo herrera\documents\proyectos\desarrollo\xlslib-2.3.4\xlslib\src\xlslib\record.cpp
+	"xlslib/record.h"
+	"xlslib/rectypes.h"
+
+1326663324 source:c:\users\leonardo herrera\documents\proyectos\desarrollo\xlslib-2.3.4\xlslib\src\xlslib\row.cpp
+	"xlslib/record.h"
+	"xlslib/row.h"
+	"xlslib/datast.h"
+	"xlslib/rectypes.h"
+	"xlslib/extformat.h"
+
+1326663324 source:c:\users\leonardo herrera\documents\proyectos\desarrollo\xlslib-2.3.4\xlslib\src\xlslib\sheetrec.cpp
+	"xlslib/record.h"
+	"xlslib/blank.h"
+	"xlslib/boolean.h"
+	"xlslib/common.h"
+	"xlslib/datast.h"
+	"xlslib/err.h"
+	"xlslib/extformat.h"
+	"xlslib/formula.h"
+	"xlslib/globalrec.h"
+	"xlslib/index.h"
+	"xlslib/label.h"
+	"xlslib/merged.h"
+	"xlslib/note.h"
+	"xlslib/number.h"
+	"xlslib/range.h"
+	"xlslib/rectypes.h"
+	"xlslib/sheetrec.h"
+
+1326663324 source:c:\users\leonardo herrera\documents\proyectos\desarrollo\xlslib-2.3.4\xlslib\src\xlslib\summinfo.cpp
+	<time.h>
+	"xlslib/record.h"
+	"xlslib/summinfo.h"
+	"xlslib/HPSF.h"
+	"xlslib/datast.h"
+
+1326663324 source:c:\users\leonardo herrera\documents\proyectos\desarrollo\xlslib-2.3.4\xlslib\src\xlslib\unit.cpp
+	<memory.h>
+	"xlslib/record.h"
+	"xlslib/unit.h"
+	"xlslib/globalrec.h"
+	"xlslib/rectypes.h"
+	"xlslib/datast.h"
+	"common/xls_pshpack1.h"
+	"common/xls_poppack.h"
+
+1326663324 source:c:\users\leonardo herrera\documents\proyectos\desarrollo\xlslib-2.3.4\xlslib\src\xlslib\workbook.cpp
+	"xlslib/record.h"
+	"xlslib/biffsection.h"
+	"xlslib/colinfo.h"
+	"xlslib/continue.h"
+	"xlslib/datast.h"
+	"xlslib/err.h"
+	"xlslib/formula.h"
+	"xlslib/range.h"
+	"xlslib/recdef.h"
+	"xlslib/rectypes.h"
+	"xlslib/row.h"
+	"xlslib/sheetrec.h"
+	"xlslib/workbook.h"
+	"oledoc/oledoc.h"
+	<errno.h>
+

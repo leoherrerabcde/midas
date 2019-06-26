@@ -1,0 +1,13 @@
+CtlOpenDlg = 66, 87, 718, 518, , 22, 29, 804, 460, C
+frmIcon = 0, 0, 0, 0, C, 44, 58, 615, 378, C
+modLog = 0, 0, 0, 0, C
+Efecto3D_BAS = 0, 0, 0, 0, C
+clsBoton3D = 0, 0, 0, 0, C
+clsTextBox = 0, 0, 714, 251, C
+modGeneralFunctions = 0, 0, 0, 0, C
+modGlobalConstants = 0, 0, 571, 320, C
+modArchivosIni = 44, 58, 758, 309, C
+ModListViewFunctions = 0, 0, 0, 0, C
+modGlobalOcxConstans = 66, 87, 637, 407, C
+frmNvaCarpeta = 22, 29, 593, 349, C, 0, 0, 571, 320, C
+modLoadRes = 0, 0, 571, 320, 

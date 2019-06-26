@@ -1,0 +1,438 @@
+
+      // This is the type library for StructDatos.dll
+      [
+      // Use GUIDGEN.EXE to create the UUID that uniquely identifies
+      // this library on the user's system. NOTE: This must be done!!
+      //   uuid(F1B9E420-F306-11d1-996A-92FF02C40D32),
+         uuid(2352adc0-357d-11e0-9e42-0800200c9a66),
+      // This helpstring defines how the library will appear in the
+      // References dialog of VB.
+         helpstring("Structura de Datos para Análisis de Pulsos"),
+      // Assume standard English locale.
+         lcid(0x0409),
+      // Assign a version number to keep track of changes.
+         version(1.0)
+      ]
+      library StructDatos
+      {
+
+#include "DefStruct.h"
+
+      // Define an Enumeration to use in one of our functions.
+      typedef enum tagRotateDirection
+      {
+         tlbRotateLeft=0,
+         tlbRotateRight=1
+      }RotateDirection;
+
+      // Now define the module that will "declare" your C functions.
+      [
+         helpstring("Sample functions exported by TLibSamp.dll"),
+         version(1.0),
+      // Give the name of your DLL here.
+         dllname("StructDatos.dll")
+      ]
+      module MyDllFunctions
+      {
+
+         [
+         // Add a description for your function that the developer can
+         // read in the VB Object Browser.
+            helpstring("Returns the reverse of a given string."),
+         // Specify the actual DLL entry point for the function. Notice
+         // the entry field is like the Alias keyword in a VB Declare
+         // statement -- it allows you to specify a more friendly name
+         // for your exported functions.
+            entry("MyDll_ReverseString")
+         ]
+         // The [in], [out], and [in, out] keywords tell the Automation
+         // client which direction parameters need to be passed. Some
+         // calls can be optimized if a function only needs a parameter
+         // to be passed one-way.
+         void __stdcall ReverseString([in, out] LPSTR sMyString);
+
+         [
+            helpstring("Rotates a Long value in the given direction."),
+            entry("MyDll_Rotate")
+         ]
+         // Besides specifying more friendly names, you can specify a more
+         // friendly type for a parameter. Notice the Direction parameter
+         // has been declared with our enumeration. This gives the VB
+         // developer easy access to our constant values.
+         int __stdcall BitRotate([in] int Value,
+                                 [in] int Direction,
+                                 [in] short Bits);
+
+		 //---DECLARE EXPORTABLE FUNCTION-----------------------------//
+         [
+            helpstring("Convert Byte to String"),
+            entry("DllFn_Conv_Byte_2_Str")
+         ]
+
+		 void __stdcall Conv_Byte_2_Str ([in] unsigned char  * byteArray	,
+										  [in] int lCount		,
+										  [in] LPSTR pStrPrev	);
+		 //---END DECLARATION-----------------------------------------//
+
+
+		 //---EXPORTABLE FUNCTION DECLARATION-------------------------//
+         [
+            helpstring("Calc Id from String "),
+            entry("DllFn_Conv_Str_2_IdEvent")
+         ]
+
+		 int __stdcall Conv_Str_2_IdEvent ([in] LPSTR			pStrEv	,
+										   [in] unsigned char	lDigits	);
+		 //---END DECLARATION-----------------------------------------//
+
+		 //-----------------------------------------------------------//
+         [
+            helpstring("Conpound a Number"),
+            entry("DllFn_Compound_Number")
+         ]
+
+		 int __stdcall Compound_Number ( [in] unsigned char nByte0	,
+										 [in] unsigned char nByte1	,
+										 [in] unsigned char nByte2	,
+										 [in] unsigned char nByte3	,
+										 [in] unsigned char nDigits	);
+		 //-----------------------------------------------------------//
+
+		 //-----------------------------------------------------------//
+         [
+            helpstring("Conpound a Number"),
+            entry("DllFn_Compound_Number16Bits")
+         ]
+
+		 int __stdcall Compound_Number16( [in] unsigned char nByte0	,
+										  [in] unsigned char nByte1	);
+		 //-----------------------------------------------------------//
+
+		 //-----------------------------------------------------------//
+         [
+            helpstring("Conpound a Number"),
+            entry("DllFn_Compound_Number24Bits")
+         ]
+
+		 int __stdcall Compound_Number24  ( [in] unsigned char nByte0	,
+											[in] unsigned char nByte1	,
+											[in] unsigned char nByte2	);
+		 //-----------------------------------------------------------//
+
+		 //-----------------------------------------------------------//
+         [
+            helpstring("Conpound a Number"),
+            entry("DllFn_Compound_Number32Bits")
+         ]
+
+		 int __stdcall Compound_Number32 ( [in] unsigned char nByte0	,
+										 [in] unsigned char nByte1	,
+										 [in] unsigned char nByte2	,
+										 [in] unsigned char nByte3	);
+		 //-----------------------------------------------------------//
+
+		 //-----------------------------------------------------------//
+         [
+            helpstring("Compound a Number"),
+            entry("DllFn_Conv_Dec_2_Hex")
+         ]
+
+		 LPSTR __stdcall Conv_Dec_2_Hex ([in] int lDec	,
+										 [in] short lDigits	);
+		 //-----------------------------------------------------------//
+
+		 //---DECLARE EXPORTABLE FUNCTION-----------------------------//
+         [
+            helpstring("Import Files"),
+            entry("Pulse_Import_File")
+         ]
+
+		 long __stdcall Pulse_Import_File ([in] LPSTR StrPath	);
+		 //---END DECLARATION-----------------------------------------//
+
+		 //---DECLARE EXPORTABLE FUNCTION-----------------------------//
+         [
+            helpstring("Export File"),
+            entry("Pulse_Export_File")
+         ]
+
+		 void __stdcall Pulse_Export_File ([in] LPSTR StrPath	);
+		 //---END DECLARATION-----------------------------------------//
+
+		 //---DECLARE EXPORTABLE FUNCTION-----------------------------//
+         [
+            helpstring("Get_Files"),
+            entry("Pulse_Get_File")
+         ]
+
+		 void __stdcall Pulse_Get_File ( [in] long IndexSpread ,
+										 [in] long IndexSheet ,
+										 [in, out] LPSTR *StrFileName);
+		 //---END DECLARATION-----------------------------------------//
+
+		 //---DECLARE EXPORTABLE FUNCTION-----------------------------//
+         [
+            helpstring("Get_Pwd"),
+            entry("Pulse_Get_Pwd")
+         ]
+
+		 void __stdcall Pulse_Get_Pwd ( [in] short IndexSheet,
+										 [in] long IndexPulse,
+										 [in, out] double *Pwd	);
+		 //---END DECLARATION-----------------------------------------//
+
+		 //---DECLARE EXPORTABLE FUNCTION-----------------------------//
+         [
+            helpstring("Get_Pulse_Files_Count"),
+            entry("Pulse_Files_Count")
+         ]
+
+		 short __stdcall Pulse_Files_Count ( );
+		 //---END DECLARATION-----------------------------------------//
+
+		 //---DECLARE EXPORTABLE FUNCTION-----------------------------//
+         [
+            helpstring("Get_Pwd_Field_Count"),
+            entry("Pulse_Field_Count")
+         ]
+
+		 short __stdcall Pulse_Field_Count ( );
+		 //---END DECLARATION-----------------------------------------//
+
+
+		 //---DECLARE EXPORTABLE FUNCTION-----------------------------//
+         [
+            helpstring("Pulse_Field_Header"),
+            entry("Pulse_Field_Header")
+         ]
+
+		 void __stdcall Pulse_Field_Header ( [in] short IndexField ,
+											  [in, out] LPSTR *StrFileName);
+		 //---END DECLARATION-----------------------------------------//
+
+		 //---DECLARE EXPORTABLE FUNCTION-----------------------------//
+         [
+            helpstring("Get_pulse_Count"),
+            entry("Pulse_Count")
+         ]
+
+		 long __stdcall Pulse_Count ( [in] short IndexSheet );
+		 //---END DECLARATION-----------------------------------------//
+
+
+
+		 //---DECLARE EXPORTABLE FUNCTION-----------------------------//
+         [
+            helpstring("Set Sheet Per Pulse Quantity"),
+            entry("Pulse_Sheets_Per_Pulses")
+         ]
+
+		 long __stdcall Pulse_Sheets_Per_Pulses ( [in] int PulseCount );
+		 //---END DECLARATION-----------------------------------------//
+
+         [
+            helpstring("Set Sheet Per Pulse Quantity"),
+            entry("Pulse_Sheets_Per_Pulses")
+         ]
+		void __stdcall Pulse_Sheets_Per_File ( [in] long SheetCount );
+
+
+		 //---DECLARE EXPORTABLE FUNCTION-----------------------------//
+         [
+            helpstring("Start Save Process"),
+            entry("Pulse_Save_As_Start")
+         ]
+
+		 void __stdcall Pulse_SaveAsStart ( [in] LPSTR strFileName);
+		 //---END DECLARATION-----------------------------------------//
+
+
+
+		 //---DECLARE EXPORTABLE FUNCTION-----------------------------//
+         [
+            helpstring("Get Status SpreadSheet Creation"),
+            entry("Pulse_SpreadSheetStatus")
+         ]
+
+		 void __stdcall Pulse_SpreadSheetStatus ( [in , out] long * IndexFile , 
+												  [in , out] long * PulseQty);
+		 //---END DECLARATION-----------------------------------------//
+
+
+
+		 //---DECLARE EXPORTABLE FUNCTION-----------------------------//
+         [
+            helpstring("Get SpreadSheet Creation Done"),
+            entry("Pulse_SpreadSheetDone")
+         ]
+
+		 long __stdcall Pulse_SpreadSheetDone ( [in,out] bool* lvDone);
+		 //---END DECLARATION-----------------------------------------//
+
+
+
+		 //---DECLARE EXPORTABLE FUNCTION-----------------------------//
+         [
+            helpstring("Get SpreadSheets Saved"),
+            entry("Pulse_SpreadSheet_Saved")
+         ]
+
+		 void __stdcall Pulse_SpreadSheet_Saved ( void );
+		 //---END DECLARATION-----------------------------------------//
+
+
+
+		 //---DECLARE EXPORTABLE FUNCTION-----------------------------//
+         [
+            helpstring("Get SpreadSheets Save Status"),
+            entry("Pulse_SpreadSheetSaveSatus")
+         ]
+
+		 void __stdcall Pulse_SpreadSheet_SaveStatus ( [in , out] short * IndexFile , 
+												       [in , out] long * PulseQty);
+		 //---END DECLARATION-----------------------------------------//
+
+
+
+		 //---DECLARE EXPORTABLE FUNCTION-----------------------------//
+         [
+            helpstring("Start Debug Routine"),
+            entry("Pulse_Debug")
+         ]
+
+		 void __stdcall Pulse_Debug ( [in , out] short * IndexFile , 
+									  [in , out] long * PulseQty ,
+									  [in] LPSTR lvPath );
+		 //---END DECLARATION-----------------------------------------//
+
+		//Pulse_GetSpreadFileCount
+		 //---DECLARE EXPORTABLE FUNCTION-----------------------------//
+         [
+            helpstring("Start Debug Routine"),
+            entry("Pulse_GetSpreadFileCount")
+         ]
+
+		 long __stdcall Pulse_GetSpreadFileCount ( );
+		 //---END DECLARATION-----------------------------------------//
+		
+		//Pulse_GetSheetCount
+		 //---DECLARE EXPORTABLE FUNCTION-----------------------------//
+         [
+            helpstring("Start Debug Routine"),
+            entry("Pulse_GetSheetCount")
+         ]
+
+		 long __stdcall Pulse_GetSheetCount ( [in] long IndexSpread);
+		 //---END DECLARATION-----------------------------------------//
+		
+		//Pulse_GetSpreadFileInfo
+		 //---DECLARE EXPORTABLE FUNCTION-----------------------------//
+         [
+            helpstring("Start Debug Routine"),
+            entry("Pulse_GetSpreadFileInfo")
+         ]
+
+		 void __stdcall Pulse_GetSpreadFileInfo ( [in] long IndexSpread , 
+									  [out] long * PulseQty ,
+									  [out] double* TimeIni ,
+									  [out] double* TimeEnd);
+		 //---END DECLARATION-----------------------------------------//
+		//Pulse_GetSheetInfo
+		 //---DECLARE EXPORTABLE FUNCTION-----------------------------//
+         [
+            helpstring("Start Debug Routine"),
+            entry("Pulse_GetSheetInfo")
+         ]
+
+		 void __stdcall Pulse_GetSheetInfo ( [in] long IndexSpread , 
+									  [in] long IndexSheet ,
+									  [out] long * PulseQty ,
+									  [out] double* TimeIni ,
+									  [out] double* TimeEnd);
+		 //---END DECLARATION-----------------------------------------//
+		//Pulse_CreateSheet
+		 //---DECLARE EXPORTABLE FUNCTION-----------------------------//
+         [
+            helpstring("Start Debug Routine"),
+            entry("Pulse_CreateSheet")
+         ]
+
+		 void __stdcall Pulse_CreateSheet ( [in] long IndexSpread , 
+									  [in] long IndexSheet );
+		 //---END DECLARATION-----------------------------------------//
+		//Pulse_SaveSpreadSheet
+		 //---DECLARE EXPORTABLE FUNCTION-----------------------------//
+         [
+            helpstring("Start Debug Routine"),
+            entry("Pulse_SaveSpreadSheet")
+         ]
+
+		 void __stdcall Pulse_SaveSpreadSheet ( [in] long IndexSpread );
+		 //---END DECLARATION-----------------------------------------//
+
+		 //---DECLARE EXPORTABLE FUNCTION-----------------------------//
+         [
+            helpstring("GetPwd"),
+            entry("Pulse_GetPwd")
+         ]
+		 void __stdcall Pulse_GetPwd ( [in] long IndexSpread,
+									   [in] long IndexSheet,
+									   [in] long IndexPulse,
+									   [in, out] double *Pwd);
+		 //---END DECLARATION-----------------------------------------//
+		
+		
+		 //---DECLARE EXPORTABLE FUNCTION-----------------------------//
+         [
+            helpstring("GetPwd"),
+            entry("Pulse_OutputPath")
+         ]
+		 void __stdcall Pulse_OutputPath ( [in] LPSTR lvPath );
+		 //---END DECLARATION-----------------------------------------//
+		 //---DECLARE EXPORTABLE FUNCTION-----------------------------//
+         [
+            helpstring("GetPwd"),
+            entry("Pulse_SetWorkSpacePath")
+         ]
+		 void __stdcall Pulse_SetWorkSpacePath ( [in] LPSTR lvPath );
+		 //---END DECLARATION-----------------------------------------//
+		 //---DECLARE EXPORTABLE FUNCTION-----------------------------//
+         [
+            helpstring("Pulse_CreateWorkSpace"),
+            entry("Pulse_CreateWorkSpace")
+         ]
+		 void __stdcall Pulse_CreateWorkSpace ( );
+		 //---END DECLARATION-----------------------------------------//
+		 //---DECLARE EXPORTABLE FUNCTION-----------------------------//
+         [
+            helpstring("GetPwd"),
+            entry("Pulse_FilesPerWorkSpace")
+         ]
+		 void __stdcall Pulse_FilesPerWorkSpace ( [in] long FilesCount );						
+		 //---END DECLARATION-----------------------------------------//
+
+		 //---DECLARE EXPORTABLE FUNCTION-----------------------------//
+         [
+            helpstring("GetPwd"),
+            entry("Pulse_GetSheetPulseCount")
+         ]
+		 long __stdcall Pulse_GetSheetPulseCount ( [in] long IndexSpread ,
+													[in] long IndexSheet );						
+		 //---END DECLARATION-----------------------------------------//
+		 //---DECLARE EXPORTABLE FUNCTION-----------------------------//
+         [
+            helpstring("GetPwd"),
+            entry("Pulse_Create_Xls_File")
+         ]
+		 void __stdcall Pulse_Create_Xls_File([in]LPSTR StrFileName,[in]long IndexSpread);
+		 //---END DECLARATION-----------------------------------------//
+		 //---DECLARE EXPORTABLE FUNCTION-----------------------------//
+         [
+            helpstring("SetFieldFormat"),
+            entry("Pulse_SetFieldFormat")
+         ]
+		 void __stdcall Pulse_SetFieldFormat([in]long* Order,[in]long* Visible);
+		 //---END DECLARATION-----------------------------------------//
+      } // End of Module
+      }; // End of Library
+

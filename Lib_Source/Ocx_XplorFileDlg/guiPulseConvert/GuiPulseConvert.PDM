@@ -1,0 +1,261 @@
+[Root]
+Most Recent Package=Standard Setup Package 1
+
+
+[Package|Dep File 1|Root]
+SubWizProgID=PDWizard.DepPkgSubWiz
+BuildFolder=C:\Proyectos\AnalisisPulsos\GUI_Src\Setup
+
+[Package|Dep File 1|Configure DAO ISAMs]
+Applicable=No
+
+[Package|Dep File 1|Configure DAO ODBC]
+JetWorkspace=
+ODBCDirect=
+
+[Package|Dep File 1|Files Found]
+
+[Package|Dep File 1|Files Released]
+
+[Package|Dep File 1|Missing Dependency Information]
+\\vmware-host\Shared Folders\Curso Visual\Vb\Winxplorer_codigo_vb\Winxplorer_codigo_vb\Open with search files\filevw70.ocx=
+\\vmware-host\Shared Folders\Curso Visual\Vb\Winxplorer_codigo_vb\Winxplorer_codigo_vb\Open with search files\shcmb70.ocx=
+C:\Proyectos\AnalisisPulsos\Lib_Source\OpenDlg.ocx=
+C:\Archivos de programa\MATLAB\R2009b\toolbox\rtw\targets\xpc\xpc\xpcmngr\ocx\TABCTL32.ocx=
+C:\WINDOWS\system32\MSCOMCTL.OCX=
+C:\Proyectos\AnalisisPulsos\Lib\GralFunctions.dll=
+
+[Package|Dep File 1|Out-of-Date Dependency Information]
+C:\WINDOWS\system32\RICHTX32.OCX=
+
+[Package|Dep File 1|Files Added]
+
+[Package|Dep File 1|Files Removed]
+
+[Package|Dep File 1|Files In Project]
+C:\Proyectos\AnalisisPulsos\GUI_Src\GuiPulseConvert.exe=Yes
+C:\WINDOWS\system32\msvbvm60.dll=Yes
+C:\WINDOWS\system32\oleaut32.dll=Yes
+C:\WINDOWS\system32\olepro32.dll=Yes
+C:\WINDOWS\system32\asycfilt.dll=Yes
+C:\WINDOWS\system32\stdole2.tlb=Yes
+C:\Archivos de programa\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\COMCAT.DLL=Yes
+C:\Proyectos\AnalisisPulsos\Lib\GralFunctions.dll=Yes
+C:\Proyectos\AnalisisPulsos\Lib_Source\StructDatos.dll=Yes
+C:\WINDOWS\system32\MSCOMCTL.OCX=Yes
+C:\WINDOWS\system32\MSHFLXGD.OCX=Yes
+C:\WINDOWS\system32\MSSTDFMT.DLL=Yes
+C:\WINDOWS\system32\RICHTX32.OCX=Yes
+C:\Archivos de programa\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\RICHED32.DLL=Yes
+C:\WINDOWS\system32\COMDLG32.OCX=Yes
+C:\Archivos de programa\MATLAB\R2009b\toolbox\rtw\targets\xpc\xpc\xpcmngr\ocx\TABCTL32.ocx=Yes
+C:\Proyectos\AnalisisPulsos\Lib_Source\OpenDlg.ocx=Yes
+\\vmware-host\Shared Folders\Curso Visual\Vb\Winxplorer_codigo_vb\Winxplorer_codigo_vb\Open with search files\shcmb70.ocx=Yes
+\\vmware-host\Shared Folders\Curso Visual\Vb\Winxplorer_codigo_vb\Winxplorer_codigo_vb\Open with search files\filevw70.ocx=Yes
+
+[Package|Dep File 1|Configure Registry Files]
+Applicable=
+
+[Package|Dep File 1|Configure Remote Servers]
+Applicable=
+
+[Package|Dep File 1|Install Locations]
+C:\Proyectos\AnalisisPulsos\GUI_Src\GuiPulseConvert.exe=$(AppPath)
+C:\WINDOWS\system32\msvbvm60.dll=$(WinSysPathSysFile)
+C:\WINDOWS\system32\oleaut32.dll=$(WinSysPathSysFile)
+C:\WINDOWS\system32\olepro32.dll=$(WinSysPathSysFile)
+C:\WINDOWS\system32\asycfilt.dll=$(WinSysPathSysFile)
+C:\WINDOWS\system32\stdole2.tlb=$(WinSysPathSysFile)
+C:\Archivos de programa\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\COMCAT.DLL=$(WinSysPathSysFile)
+C:\Proyectos\AnalisisPulsos\Lib\GralFunctions.dll=$(WinSysPath)
+C:\Proyectos\AnalisisPulsos\Lib_Source\StructDatos.dll=$(AppPath)
+C:\WINDOWS\system32\MSCOMCTL.OCX=$(WinSysPath)
+C:\WINDOWS\system32\MSHFLXGD.OCX=$(WinSysPath)
+C:\WINDOWS\system32\MSSTDFMT.DLL=$(WinSysPath)
+C:\WINDOWS\system32\RICHTX32.OCX=$(WinSysPath)
+C:\Archivos de programa\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\RICHED32.DLL=$(WinSysPathSysFile)
+C:\WINDOWS\system32\COMDLG32.OCX=$(WinSysPath)
+C:\Archivos de programa\MATLAB\R2009b\toolbox\rtw\targets\xpc\xpc\xpcmngr\ocx\TABCTL32.ocx=$(WinSysPath)
+C:\Proyectos\AnalisisPulsos\Lib_Source\OpenDlg.ocx=$(WinSysPath)
+\\vmware-host\Shared Folders\Curso Visual\Vb\Winxplorer_codigo_vb\Winxplorer_codigo_vb\Open with search files\shcmb70.ocx=$(WinSysPath)
+\\vmware-host\Shared Folders\Curso Visual\Vb\Winxplorer_codigo_vb\Winxplorer_codigo_vb\Open with search files\filevw70.ocx=$(WinSysPath)
+
+[Package|Dep File 1|Configure Shared Files]
+Applicable=
+
+[Package|Dep File 1|DepFile]
+DepCabFile=GuiPulseConvert.CAB
+DepCabRun=GuiPulseConvert.INF
+
+[Package|Dep File 1|Package]
+PackageFolder=C:\Proyectos\AnalisisPulsos\GUI_Src\Setup
+ProjectFolder=C:\Proyectos\AnalisisPulsos\GUI_Src
+ServerSideCab=
+File1=C:\Proyectos\AnalisisPulsos\GUI_Src\Setup\GuiPulseConvert.DEP
+Handler1=PDWizard.FolderDplySubWiz
+Handler2=PDWizard.WebPostDplySubWiz
+
+
+[Package|Standard Setup Package 1|IconGroups]
+Group0=Tools
+PrivateGroup0=False
+Parent0=$(Programs)
+
+[Package|Standard Setup Package 1|Tools]
+Icon1=\Exe\PulseConvert.exe
+Title1=PulseConvert
+StartIn1=$(AppPath)\Exe
+Key1=Icon3
+
+[Package|Standard Setup Package 1|PulseConvert]
+Icon1=$(AppPath)\Exe\PulseConvert.exe
+Title1=PulseConvert
+StartIn1=$(AppPath)\Exe
+Key1=Icon1
+
+[Package|Standard Setup Package 1|Root]
+SubWizProgID=PDWizard.SetupPkgSubWiz
+BuildFolder=z:\Curso Visual\Download\pulse_convert\Setup\Setup_2013_04_25
+
+[Package|Standard Setup Package 1|Configure DAO ISAMs]
+Applicable=No
+
+[Package|Standard Setup Package 1|Configure DAO ODBC]
+JetWorkspace=
+ODBCDirect=
+
+[Package|Standard Setup Package 1|Files Found]
+
+[Package|Standard Setup Package 1|Files Released]
+OpenDlg.ocx=
+User.DLL=
+
+[Package|Standard Setup Package 1|Missing Dependency Information]
+\\vmware-host\Shared Folders\Curso Visual\Vb\Winxplorer_codigo_vb\Winxplorer_codigo_vb\Open with search files\filevw70.ocx=
+\\vmware-host\Shared Folders\Curso Visual\Vb\Winxplorer_codigo_vb\Winxplorer_codigo_vb\Open with search files\shcmb70.ocx=
+C:\Proyectos\AnalisisPulsos\Lib_Source\OpenDlg.ocx=
+C:\Archivos de programa\MATLAB\R2009b\toolbox\rtw\targets\xpc\xpc\xpcmngr\ocx\TABCTL32.ocx=
+C:\WINDOWS\system32\MSCOMCTL.OCX=
+C:\Proyectos\AnalisisPulsos\Lib\GralFunctions.dll=
+C:\WINDOWS\system32\OpenDlg.ocx=
+C:\WINDOWS\system32\filevw70.ocx=
+C:\WINDOWS\system32\shcmb70.ocx=
+
+[Package|Standard Setup Package 1|Out-of-Date Dependency Information]
+C:\WINDOWS\system32\RICHTX32.OCX=
+
+[Package|Standard Setup Package 1|Files Added]
+c:\proyectos\analisispulsos\lib_source\opendlg.ocx=
+c:\proyectos\analisispulsos\guipulseconvert\iconos\abrirprj.gif=
+c:\proyectos\analisispulsos\guipulseconvert\iconos\collapsed.ico=
+c:\proyectos\analisispulsos\guipulseconvert\iconos\crearcarpeta.ico=
+c:\proyectos\analisispulsos\guipulseconvert\iconos\expanded.ico=
+c:\proyectos\analisispulsos\guipulseconvert\iconos\nvoprj.gif=
+c:\proyectos\analisispulsos\guipulseconvert\iconos\subirnivel.ico=
+c:\proyectos\analisispulsos\guipulseconvert\iconos\vista.ico=
+c:\proyectos\analisispulsos\guipulseconvert\config\openprjcfg.txt=
+c:\proyectos\analisispulsos\config.exe=
+
+[Package|Standard Setup Package 1|Files Removed]
+
+[Package|Standard Setup Package 1|Files In Project]
+C:\WINDOWS\system32\msvbvm60.dll=Yes
+C:\WINDOWS\system32\oleaut32.dll=Yes
+C:\WINDOWS\system32\olepro32.dll=Yes
+C:\WINDOWS\system32\asycfilt.dll=Yes
+C:\WINDOWS\system32\stdole2.tlb=Yes
+C:\Archivos de programa\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\COMCAT.DLL=Yes
+C:\Proyectos\AnalisisPulsos\Lib\GralFunctions.dll=Yes
+C:\Proyectos\AnalisisPulsos\Lib_Source\StructDatos.dll=Yes
+C:\WINDOWS\system32\MSCOMCTL.OCX=Yes
+C:\WINDOWS\system32\RICHTX32.OCX=Yes
+C:\Archivos de programa\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\RICHED32.DLL=Yes
+C:\WINDOWS\system32\COMDLG32.OCX=Yes
+C:\Archivos de programa\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP.EXE=Yes
+C:\Archivos de programa\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP1.EXE=Yes
+C:\WINDOWS\system32\VB6STKIT.DLL=Yes
+C:\Archivos de programa\Microsoft Visual Studio\VB98\Wizards\PDWizard\ST6UNST.EXE=Yes
+C:\Proyectos\AnalisisPulsos\Exe\PulseConvert.exe=Yes
+C:\WINDOWS\system32\TABCTL32.OCX=Yes
+C:\WINDOWS\system32\MSWINSCK.OCX=Yes
+C:\WINDOWS\system32\shcmb70.ocx=Yes
+C:\WINDOWS\system32\filevw70.ocx=Yes
+C:\WINDOWS\system32\OpenDlg.ocx=Yes
+
+[Package|Standard Setup Package 1|Configure Registry Files]
+Applicable=No
+
+[Package|Standard Setup Package 1|Configure Remote Servers]
+Applicable=No
+
+[Package|Standard Setup Package 1|Install Locations]
+C:\Proyectos\AnalisisPulsos\GUI_Src\GuiPulseConvert.exe=$(AppPath)
+C:\WINDOWS\system32\msvbvm60.dll=$(WinSysPathSysFile)
+C:\WINDOWS\system32\oleaut32.dll=$(WinSysPathSysFile)
+C:\WINDOWS\system32\olepro32.dll=$(WinSysPathSysFile)
+C:\WINDOWS\system32\asycfilt.dll=$(WinSysPathSysFile)
+C:\WINDOWS\system32\stdole2.tlb=$(WinSysPathSysFile)
+C:\Archivos de programa\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\COMCAT.DLL=$(WinSysPathSysFile)
+C:\Proyectos\AnalisisPulsos\Lib\GralFunctions.dll=$(WinSysPath)
+C:\Proyectos\AnalisisPulsos\Lib_Source\StructDatos.dll=$(AppPath)\Lib_Source
+C:\WINDOWS\system32\MSCOMCTL.OCX=$(WinSysPath)
+C:\WINDOWS\system32\MSHFLXGD.OCX=$(WinSysPath)
+C:\WINDOWS\system32\MSSTDFMT.DLL=$(WinSysPath)
+C:\WINDOWS\system32\RICHTX32.OCX=$(WinSysPath)
+C:\Archivos de programa\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\RICHED32.DLL=$(WinSysPathSysFile)
+C:\WINDOWS\system32\COMDLG32.OCX=$(WinSysPath)
+C:\Archivos de programa\MATLAB\R2009b\toolbox\rtw\targets\xpc\xpc\xpcmngr\ocx\TABCTL32.ocx=$(WinSysPath)
+C:\Proyectos\AnalisisPulsos\Lib_Source\OpenDlg.ocx=$(WinSysPath)
+\\vmware-host\Shared Folders\Curso Visual\Vb\Winxplorer_codigo_vb\Winxplorer_codigo_vb\Open with search files\shcmb70.ocx=$(WinSysPath)
+\\vmware-host\Shared Folders\Curso Visual\Vb\Winxplorer_codigo_vb\Winxplorer_codigo_vb\Open with search files\filevw70.ocx=$(WinSysPath)
+C:\Archivos de programa\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP.EXE=$(AppPath)
+C:\Archivos de programa\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP1.EXE=$(WinPath)
+C:\WINDOWS\system32\VB6STKIT.DLL=$(WinSysPathSysFile)
+C:\Archivos de programa\Microsoft Visual Studio\VB98\Wizards\PDWizard\ST6UNST.EXE=$(WinPath)
+C:\Proyectos\AnalisisPulsos\GUI_Src2\GuiPulseConvert.exe=$(AppPath)
+C:\Proyectos\AnalisisPulsos\Exe\PulseConvert.exe=$(AppPath)\Exe
+C:\WINDOWS\system32\TABCTL32.OCX=$(WinSysPath)
+C:\WINDOWS\system32\MSWINSCK.OCX=$(WinSysPath)
+C:\Proyectos\AnalisisPulsos\guiPulseConvert\Iconos\AbrirPrj.gif=$(AppPath)\Iconos
+C:\Proyectos\AnalisisPulsos\guiPulseConvert\Iconos\Collapsed.ico=$(AppPath)\Iconos
+C:\Proyectos\AnalisisPulsos\guiPulseConvert\Iconos\CrearCarpeta.ico=$(AppPath)\Iconos
+C:\Proyectos\AnalisisPulsos\guiPulseConvert\Iconos\Expanded.ico=$(AppPath)\Iconos
+C:\Proyectos\AnalisisPulsos\guiPulseConvert\Iconos\NvoPrj.gif=$(AppPath)\Iconos
+C:\Proyectos\AnalisisPulsos\guiPulseConvert\Iconos\SubirNivel.ico=$(AppPath)\Iconos
+C:\Proyectos\AnalisisPulsos\guiPulseConvert\Iconos\Vista.ico=$(AppPath)\Iconos
+C:\Proyectos\AnalisisPulsos\guiPulseConvert\Config\OpenPrjCfg.txt=$(AppPath)\Config
+C:\Proyectos\AnalisisPulsos\Config.exe=$(AppPath)
+C:\WINDOWS\system32\shcmb70.ocx=$(WinSysPath)
+C:\WINDOWS\system32\filevw70.ocx=$(WinSysPath)
+C:\WINDOWS\system32\OpenDlg.ocx=$(WinSysPath)
+
+[Package|Standard Setup Package 1|Configure Shared Files]
+Applicable=Yes
+C:\Proyectos\AnalisisPulsos\GUI_Src\GuiPulseConvert.exe=No
+C:\Proyectos\AnalisisPulsos\Lib_Source\StructDatos.dll=No
+C:\Proyectos\AnalisisPulsos\GUI_Src2\GuiPulseConvert.exe=No
+C:\Proyectos\AnalisisPulsos\Exe\PulseConvert.exe=No
+C:\Proyectos\AnalisisPulsos\guiPulseConvert\Iconos\AbrirPrj.gif=No
+C:\Proyectos\AnalisisPulsos\guiPulseConvert\Iconos\Collapsed.ico=Yes
+C:\Proyectos\AnalisisPulsos\guiPulseConvert\Iconos\CrearCarpeta.ico=No
+C:\Proyectos\AnalisisPulsos\guiPulseConvert\Iconos\Expanded.ico=No
+C:\Proyectos\AnalisisPulsos\guiPulseConvert\Iconos\NvoPrj.gif=No
+C:\Proyectos\AnalisisPulsos\guiPulseConvert\Iconos\SubirNivel.ico=No
+C:\Proyectos\AnalisisPulsos\guiPulseConvert\Iconos\Vista.ico=No
+C:\Proyectos\AnalisisPulsos\guiPulseConvert\Config\OpenPrjCfg.txt=No
+C:\Proyectos\AnalisisPulsos\Config.exe=No
+
+[Package|Standard Setup Package 1|Distribution]
+Type=single
+Size=
+Title=PulseConvert
+
+[Package|Standard Setup Package 1|Package]
+PackageFolder=z:\Curso Visual\Download\pulse_convert\Setup\Setup_2013_04_25
+ProjectFolder=C:\Proyectos\AnalisisPulsos\guiPulseConvert
+ServerSideCab=
+File1=z:\Curso Visual\Download\pulse_convert\Setup\Setup_2013_04_25\setup.exe
+File2=z:\Curso Visual\Download\pulse_convert\Setup\Setup_2013_04_25\Setup.Lst
+File3=z:\Curso Visual\Download\pulse_convert\Setup\Setup_2013_04_25\PulseConvert.CAB
+Handler1=PDWizard.FolderDplySubWiz
+Handler2=PDWizard.WebPostDplySubWiz
